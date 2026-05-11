@@ -1,0 +1,65 @@
+.wrapper {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #0f0f0f;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.card {
+  background-color: #1a1a2e;
+  border: 1px solid #7c3aed;
+  border-radius: 16px;
+  padding: 48px;
+  text-align: center;
+  box-shadow: 0 0 40px rgba(124, 58, 237, 0.3);
+  min-width: 320px;
+}
+
+.title {
+  color: #e2e8f0;
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 32px;
+  letter-spacing: 0.05em;
+}
+
+.countDisplay {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.countNumber {
+  font-size: 5rem;
+  font-weight: 700;
+  color: #a78bfa;
+  line-height: 1;
+}
+
+.countLabel {
+  font-size: 0.85rem;
+  color: #64748b;
+  margin-top: 8px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.button {
+  background-color: #7c3aed;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 14px 36px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  letter-spacing: 0.03em;
+}
+
+.button:hover {
+  background-color: #6d28d9;
+}
