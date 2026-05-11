@@ -1,63 +1,122 @@
-<<<<<<< HEAD
 # 🖱️ Contador de Cliques
 
 Aplicação React simples que implementa um contador de cliques. Desenvolvida como projeto de certificação da Trilha React no DEVstart.
 
+---
+
 ## 📋 Sobre o Projeto
 
-Cada clique no botão incrementa o contador em um. O projeto demonstra o uso de componentes funcionais, hook `useState` e eventos (`onClick`) no React.
+Cada clique no botão incrementa o contador em um. O projeto demonstra o uso de:
 
-## 🚀 Como Executar
+- Componentes funcionais
+- Hook `useState`
+- Eventos `onClick`
+- Gerenciamento de estado no React
+- Estruturação básica de projetos React
 
-### Pré-requisitos
+---
 
-- Node.js instalado (versão 16 ou superior)
-- npm ou yarn
+## 🚀 Demonstração
 
-### Passo a passo
+Ao clicar no botão **"Clique aqui"**, o contador aumenta automaticamente.
 
-```bash
-# 1. Clone o repositório
-git clone https://github.com/seu-usuario/contador-de-cliques.git
+---
 
-# 2. Entre na pasta do projeto
-cd contador-de-cliques
+## 🛠️ Tecnologias Utilizadas
 
-# 3. Instale as dependências
-npm install
+- React
+- JavaScript
+- CSS3
+- Create React App
 
-# 4. Inicie o servidor de desenvolvimento
-npm start
-```
-
-A aplicação abrirá automaticamente em `http://localhost:3000`.
-
-## 🛠️ Tecnologias
-
-- [React](https://reactjs.org/) — biblioteca para construção de interfaces
-- [Create React App](https://create-react-app.dev/) — configuração do ambiente
+---
 
 ## 📁 Estrutura do Projeto
 
-```
-contador-de-cliques/
+```bash
+contador_cliques/
 ├── public/
-│   └── index.html
+│   ├── index.html
+│   ├── manifest.json
+│   └── robots.txt
 ├── src/
 │   ├── App.jsx
 │   ├── Contador.jsx
 │   ├── Contador.css
 │   └── index.js
+├── .gitignore
 ├── package.json
 └── README.md
 ```
 
+---
+
+## ⚙️ Como Executar o Projeto
+
+### Pré-requisitos
+
+Antes de começar, você precisa ter instalado:
+
+- Node.js
+- npm ou yarn
+
+---
+
+### Instalação
+
+Clone o repositório:
+
+```bash
+git clone https://github.com/Sowza82/contador_cliques.git
+```
+
+Entre na pasta do projeto:
+
+```bash
+cd contador_cliques
+```
+
+Instale as dependências:
+
+```bash
+npm install
+```
+
+---
+
+## ▶️ Executando a Aplicação
+
+Inicie o servidor de desenvolvimento:
+
+```bash
+npm start
+```
+
+A aplicação abrirá automaticamente em:
+
+```bash
+http://localhost:3000
+```
+
+---
+
 ## 💡 Conceitos Praticados
 
-- Componente funcional (`Contador`)
-- Hook `useState` para gerenciar estado
-- Evento `onClick` para capturar interações
-- Renderização condicional de dados do estado
-=======
-# contador_cliques
->>>>>>> a067d86a9169497bb2dec19f536578c3b55d3625
+- Criação de componentes React
+- Utilização do hook `useState`
+- Manipulação de eventos
+- Atualização de interface dinâmica
+- Organização de arquivos
+- Separação de estilos CSS
+
+---
+
+## 🎯 Objetivo do Projeto
+
+Este projeto foi desenvolvido com foco em prática de fundamentos do React, reforçando conceitos essenciais para desenvolvimento Front-End moderno.
+
+---
+
+## 👩‍💻 Desenvolvido por
+
+Tatiane Souza
